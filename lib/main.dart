@@ -33,7 +33,7 @@ class TestApp extends StatelessWidget {
     //O método build() retorna um MaterialApp (é um widget que permite construir outros widgets na raiz da aplicação)
     //Utilizar um MaterialApp como "widget raiz" é opcional, mas é uma boa prática, segundo a própria documentação
     return MaterialApp(
-      title: 'Minha primeira aplicação',
+      title: 'Minha primeira aplicação em Flutter',
       home: Scaffold(
         //Scaffold é um widget (Implementa uma estrutura de leiaute básica de acordo com o Material Design)
         appBar: AppBar(
